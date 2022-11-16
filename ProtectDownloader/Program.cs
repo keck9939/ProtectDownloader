@@ -69,7 +69,7 @@ namespace TestClient
             var delayOpt = new Option<int>(
                 name: "--delay",
                 description: "Delay between video downloads",
-                getDefaultValue: ()=> 2);
+                getDefaultValue: () => 2);
  
             var camerasCommand = new Command("cameras", "Get list of cameras");
 
@@ -79,6 +79,7 @@ namespace TestClient
                 endOpt,
                 cameraOpt,
                 outputOpt,
+                delayOpt,
             };
 
             var rootCommand = new RootCommand("Protect Downloader");
