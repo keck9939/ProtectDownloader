@@ -2,6 +2,8 @@
 
 **Tool to download footage from a local UniFi Protect system**
 
+Protect now has much better provision for downloading and this code probably no longer functions with current versions. So it is being archived.
+
 ## Introduction
 
 The Unifi Protect application has no good provision for getting large amounts of video from it. Using the web interface will work for limited downloads, but is not suitable for archiving large amounts of data.
